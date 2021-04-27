@@ -24,10 +24,13 @@
     <string name="judul_gemuk">Mengatasi Kegemukan</string>
     <string name="saran_kurus">Cobalah untuk makan porsi besar, seperti burger
     berukuran raksasa ini.</string>
+    <string name="belum_ada_data">Belum ada data</string>
     <string name="saran_ideal">Pertahankan gaya hidupmu! Tapi jangan kebanyakan
     gaya karena itu berbahaya.</string>
     <string name="saran_gemuk">Cobalah untuk olahraga lari. Kemanapun boleh, asal
     tidak lari dari kehidupan.</string>
+
+    <string name="histori">History</string>
 
     <string name="lihat_saran">Lihat Saran</string>
     <string name="copyright">Hitung BMI merupakan sebuah aplikasi Android untuk menghitung body
