@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tanggalTextView"
+        tools:text="19 Januari 2020"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/kategoriTextView"
+        android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toEndOf="@id/beratTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tanggalTextView"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="IDEAL"/>
+
+    <TextView
+        android:id="@+id/bmiTextView"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/kategoriTextView"
+        app:layout_constraintTop_toTopOf="@id/kategoriTextView"
+        tools:text="BMI: 24,09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/beratTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/tinggiTextView"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kategoriTextView"
+        tools:text="BB : 68,0" />
+    <TextView
+        android:id="@+id/tinggiTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/beratTextView"
+        app:layout_constraintTop_toTopOf="@id/beratTextView"
+        tools:text="TB: 168,0"
+        app:layout_constraintEnd_toStartOf="@id/genderTextView" />
+    <TextView
+        android:id="@+id/genderTextView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tinggiTextView"
+        app:layout_constraintTop_toTopOf="@id/beratTextView"
+        tools:text="Pria"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

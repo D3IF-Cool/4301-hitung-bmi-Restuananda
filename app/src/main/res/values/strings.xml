@@ -31,6 +31,8 @@
     tidak lari dari kehidupan.</string>
 
     <string name="histori">History</string>
+    <string name="berat_x">BB: %1$.1f</string>
+    <string name="tinggi_x">TB: %1$,1f</string>
 
     <string name="lihat_saran">Lihat Saran</string>
     <string name="copyright">Hitung BMI merupakan sebuah aplikasi Android untuk menghitung body
