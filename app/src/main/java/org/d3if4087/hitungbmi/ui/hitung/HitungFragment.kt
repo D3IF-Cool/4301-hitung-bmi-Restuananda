@@ -52,10 +52,6 @@ class HitungFragment : Fragment() {
             binding.txtCategory.text = getString(R.string.kategori_x,getKategori(it.kategori))
             binding.btnGroup.visibility = View.VISIBLE
         })
-        vieModel.data.observe(viewLifecycleOwner, {
-            if (it == null) return@observe
-            Log.d("Hitung Fragment", "Data tersimpan. ID = ${it.id}")
-        })
     }
 
     private fun HitungBmi(){
