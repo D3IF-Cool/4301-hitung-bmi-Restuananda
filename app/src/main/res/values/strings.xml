@@ -45,5 +45,9 @@
 
     <string name="bagikan_template">Berat badan: %1$s kg\nTinggi badan: %2$s
         cm\nJenis kelamin: %3$s\n\n%4$s\n%5$s</string>
+    <string name="hapus_histori">Hapus histori</string>
+    <string name="konfirasi_hapus">Hapus Semua histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
     <dimen name="horizontal_margin">32dp</dimen>
 </resources>
